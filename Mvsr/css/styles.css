@@ -1,0 +1,45 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: yellow;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#complaint-form {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#coin-count {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#user-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#submit-button {
+    background-color: #fdd835;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #fbc02d;
+}
+
